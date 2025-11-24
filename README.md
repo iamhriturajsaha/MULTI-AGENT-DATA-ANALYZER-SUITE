@@ -22,7 +22,9 @@ Modern enterprises face an escalating challenge: vast volumes of structured and 
 
 **5. Fragmented Automation -** While numerous tools automate individual analytical tasks (business intelligence dashboards, SQL optimizers), comprehensive end-to-end workflow automation—from raw dataset ingestion to narrative insight delivery—remains largely unavailable.
 
-**Project Objective -** Develop a fully autonomous, enterprise-grade agentic system capable of executing complete data analysis workflows with minimal human involvement, making advanced analytics accessible, affordable, and scalable across organizations.
+##Project Objective
+
+Develop a fully autonomous, enterprise-grade agentic system capable of executing complete data analysis workflows with minimal human involvement, making advanced analytics accessible, affordable, and scalable across organizations.
 
 ## The Agentic Approach - Architecture Rationale
 
@@ -73,8 +75,8 @@ The Automated Multi-Agent Data Analyst Suite autonomously executes -
 
 - **Data Ingestion -** Multi-format dataset import and validation.
 - **Data Profiling -** Comprehensive schema and quality assessment.
-- **Query Generation - ** Automated SQL query creation and optimization.
-- **Statistical Analysis - ** Descriptive statistics, correlation analysis, hypothesis testing.
+- **Query Generation -** Automated SQL query creation and optimization.
+- **Statistical Analysis -** Descriptive statistics, correlation analysis, hypothesis testing.
 - **Visualization -** Multi-format interactive chart generation.
 - **Insight Synthesis -** Narrative report generation with actionable recommendations.
 - **Quality Assurance -** Result validation and consistency checking.
@@ -204,17 +206,17 @@ This pipeline architecture ensures accuracy and efficiency while maintaining age
 
 ## Key Differentiators
 
-### **1. Fully Autonomous EDA -**  Executes complete exploratory analysis from ingestion to insight without human intervention.
+**1. Fully Autonomous EDA -**  Executes complete exploratory analysis from ingestion to insight without human intervention.
 
-### **2. SQL Intelligence -** Automatically generates, optimizes, and validates complex SQL queries across diverse database schemas.
+**2. SQL Intelligence -** Automatically generates, optimizes, and validates complex SQL queries across diverse database schemas.
 
-### **3. Data Storytelling -** Transforms statistical outputs into coherent, actionable narrative insights tailored to business contexts.
+**3. Data Storytelling -** Transforms statistical outputs into coherent, actionable narrative insights tailored to business contexts.
 
-### **4. Fault-Tolerant Design -** Agents implement self-correction protocols and escalate to orchestrator when autonomous recovery fails.
+**4. Fault-Tolerant Design -** Agents implement self-correction protocols and escalate to orchestrator when autonomous recovery fails.
 
-### **5. Extensible Architecture -** Plug-and-play agent integration supports organic capability expansion without core system modification.
+**5. Extensible Architecture -** Plug-and-play agent integration supports organic capability expansion without core system modification.
 
-### **6. Multi-Modal Output -** Delivers comprehensive analytical packages including -
+**6. Multi-Modal Output -** Delivers comprehensive analytical packages including -
 
 - Executive narrative summaries.
 - Interactive visualizations.
@@ -290,4 +292,5 @@ This pipeline architecture ensures accuracy and efficiency while maintaining age
 The Multi-Agent Data Analyst Suite demonstrates the transformative potential of autonomous, collaborative AI systems in enterprise analytics. By combining specialized agents with intelligent orchestration, the system automates every critical stage of the analytical pipeline—delivering rapid, accurate, and scalable insights that drive informed decision-making. This project represents not merely an incremental improvement in analytics tooling, but a fundamental reimagining of how organizations can leverage data: through agent-powered automation, modular extensibility, and enterprise-grade reliability.
 
 **The future of data analytics is autonomous, intelligent, and already here.**
+
 
