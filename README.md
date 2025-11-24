@@ -12,21 +12,21 @@ Modern enterprises face an escalating challenge: vast volumes of structured and 
 
 ## Problem Statement
 
-### **1. Inefficient Manual Workflows -** Research indicates that data analysts spend approximately 70% of their time on data cleaning, querying, and preparation activities, leaving minimal capacity for value-generating insight development.
+**1. Inefficient Manual Workflows -** Research indicates that data analysts spend approximately 70% of their time on data cleaning, querying, and preparation activities, leaving minimal capacity for value-generating insight development.
 
-### **2. Skills Gap and Resource Constraints -** Comprehensive data analysis requires diverse competencies—SQL optimization, statistical analysis, visualization design, and narrative synthesis. Organizations often lack integrated teams possessing all these specialized skills.
+**2. Skills Gap and Resource Constraints -** Comprehensive data analysis requires diverse competencies—SQL optimization, statistical analysis, visualization design, and narrative synthesis. Organizations often lack integrated teams possessing all these specialized skills.
 
-### **3. Scalability Limitations -** As datasets expand to gigabyte and terabyte scales, human-driven workflows become increasingly inefficient and error-prone, creating analytical bottlenecks that impede business agility.
+**3. Scalability Limitations -** As datasets expand to gigabyte and terabyte scales, human-driven workflows become increasingly inefficient and error-prone, creating analytical bottlenecks that impede business agility.
 
-### **4. Time-Sensitive Decision Making -** Business environments demand real-time or near-real-time insights. Delayed analysis cycles result in missed opportunities, suboptimal forecasting, and reactive rather than proactive strategic positioning.
+**4. Time-Sensitive Decision Making -** Business environments demand real-time or near-real-time insights. Delayed analysis cycles result in missed opportunities, suboptimal forecasting, and reactive rather than proactive strategic positioning.
 
-### **5. Fragmented Automation -** While numerous tools automate individual analytical tasks (business intelligence dashboards, SQL optimizers), comprehensive end-to-end workflow automation—from raw dataset ingestion to narrative insight delivery—remains largely unavailable.
+**5. Fragmented Automation -** While numerous tools automate individual analytical tasks (business intelligence dashboards, SQL optimizers), comprehensive end-to-end workflow automation—from raw dataset ingestion to narrative insight delivery—remains largely unavailable.
 
 **Project Objective -** Develop a fully autonomous, enterprise-grade agentic system capable of executing complete data analysis workflows with minimal human involvement, making advanced analytics accessible, affordable, and scalable across organizations.
 
 ## The Agentic Approach - Architecture Rationale
 
-### **1. Specialization Through Modularity -** No single monolithic model can effectively handle the full spectrum of analytical tasks -
+**1. Specialization Through Modularity -** No single monolithic model can effectively handle the full spectrum of analytical tasks -
 
 - Data profiling and quality assessment.
 - Data cleaning and transformation.
@@ -37,7 +37,7 @@ Modern enterprises face an escalating challenge: vast volumes of structured and 
 
 Agent-based architectures provide modular intelligence, with each agent optimized for specific analytical functions.
 
-### **2. Mimicking Human Data Teams -** The system architecture mirrors organizational structures found in high-performing data teams -
+**2. Mimicking Human Data Teams -** The system architecture mirrors organizational structures found in high-performing data teams -
 
 | **Human Role** | **Agent Equivalent** |
 |----------------|---------------------|
@@ -47,7 +47,7 @@ Agent-based architectures provide modular intelligence, with each agent optimize
 | Business Analyst | Insight Generation Agent |
 | Visualization Expert | Visualization Server |
 
-### **3. Concurrent Processing for Performance -** Agent-based systems enable parallel execution of independent subtasks -
+**3. Concurrent Processing for Performance -** Agent-based systems enable parallel execution of independent subtasks -
 
 - Data profiling.
 - Schema extraction.
@@ -56,7 +56,7 @@ Agent-based architectures provide modular intelligence, with each agent optimize
 
 This concurrent processing architecture dramatically reduces end-to-end analysis time compared to sequential workflows.
 
-### **4. Extensibility and Evolution -** The modular architecture facilitates seamless integration of additional specialized agents -
+**4. Extensibility and Evolution -** The modular architecture facilitates seamless integration of additional specialized agents -
 
 - Machine Learning Model Training Agent.
 - Advanced Data Cleaning Agent.
@@ -65,7 +65,7 @@ This concurrent processing architecture dramatically reduces end-to-end analysis
 
 The system evolves organically as new analytical capabilities emerge.
 
-### **5. Optional Human-in-the-Loop Controls -** The orchestrator can request human confirmation for critical decisions (e.g., column deletion, data transformation), balancing automation efficiency with governance requirements.
+**5. Optional Human-in-the-Loop Controls -** The orchestrator can request human confirmation for critical decisions (e.g., column deletion, data transformation), balancing automation efficiency with governance requirements.
 
 ## System Capabilities
 
@@ -84,7 +84,7 @@ The system architecture prioritizes modularity, extensibility, and enterprise de
 
 ## System Architecture
 
-### **1. Agent Orchestrator (Central Intelligence) -** The orchestrator serves as the system's cognitive core, responsible for -
+**1. Agent Orchestrator (Central Intelligence) -** The orchestrator serves as the system's cognitive core, responsible for -
 
 - **Task Decomposition -** Breaking complex analytical requests into manageable subtasks.
 - **Agent Assignment -** Intelligent routing of subtasks to appropriate specialized agents.
@@ -93,7 +93,7 @@ The system architecture prioritizes modularity, extensibility, and enterprise de
 - **Output Synthesis -** Merging agent outputs into coherent analytical products.
 - **Error Recovery -** Implementing retry logic and alternative strategies when agents fail.
 
-### **2. Data Analyst Agent -** Specialized in exploratory and descriptive analytics -
+**2. Data Analyst Agent -** Specialized in exploratory and descriptive analytics -
 
 - Exploratory Data Analysis (EDA).
 - Descriptive statistical summaries.
@@ -105,7 +105,7 @@ The system architecture prioritizes modularity, extensibility, and enterprise de
 
 Utilizes advanced reasoning capabilities to generate contextual interpretations of statistical patterns.
 
-### **3. SQL Data Analyst Agent -** Focused on structured data manipulation and retrieval -
+**3. SQL Data Analyst Agent -** Focused on structured data manipulation and retrieval -
 
 - Database schema comprehension.
 - SQL query generation and composition.
@@ -116,7 +116,7 @@ Utilizes advanced reasoning capabilities to generate contextual interpretations 
 
 Ensures efficient execution of complex database operations.
 
-### **4. Visualization Server -** Handles all graphical output generation -
+**4. Visualization Server -** Handles all graphical output generation -
 
 - Histogram and distribution plots.
 - Correlation heatmaps.
@@ -131,7 +131,6 @@ Built on Plotly for production-grade interactive visualizations.
 ## Analytical Workflow Pipeline
 
 The system executes a structured, autonomous pipeline -
-
 ```
 Step 1: Dataset Upload                                      
 ↓                                                                                                                                                      
@@ -291,3 +290,4 @@ This pipeline architecture ensures accuracy and efficiency while maintaining age
 The Multi-Agent Data Analyst Suite demonstrates the transformative potential of autonomous, collaborative AI systems in enterprise analytics. By combining specialized agents with intelligent orchestration, the system automates every critical stage of the analytical pipeline—delivering rapid, accurate, and scalable insights that drive informed decision-making. This project represents not merely an incremental improvement in analytics tooling, but a fundamental reimagining of how organizations can leverage data: through agent-powered automation, modular extensibility, and enterprise-grade reliability.
 
 **The future of data analytics is autonomous, intelligent, and already here.**
+
