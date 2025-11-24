@@ -2,6 +2,10 @@
 
 An Enterprise-Grade AI System for End-to-End Autonomous Data Analysis
 
+<p align="center">
+  <img src="Images/1.png" alt="1" width="1000"/><br>
+</p>
+
 ## Executive Summary
 
 The Automated Multi-Agent Data Analyst Suite represents a paradigm shift in enterprise data analytics, leveraging specialized autonomous agents to transform raw data into actionable insights with minimal human intervention. By decomposing complex analytical workflows into coordinated subtasks handled by purpose-built agents, the system dramatically reduces analysis time while maintaining accuracy and reliability.
@@ -85,6 +89,10 @@ The Automated Multi-Agent Data Analyst Suite autonomously executes -
 The system architecture prioritizes modularity, extensibility, and enterprise deployment readiness.
 
 ## System Architecture
+
+<p align="center">
+  <img src="Images/2.png" alt="1" width="1000"/><br>
+</p>
 
 **1. Agent Orchestrator (Central Intelligence) -** The orchestrator serves as the system's cognitive core, responsible for -
 
@@ -296,3 +304,4 @@ This pipeline architecture ensures accuracy and efficiency while maintaining age
 The Multi-Agent Data Analyst Suite demonstrates the transformative potential of autonomous, collaborative AI systems in enterprise analytics. By combining specialized agents with intelligent orchestration, the system automates every critical stage of the analytical pipeline—delivering rapid, accurate, and scalable insights that drive informed decision-making. This project represents not merely an incremental improvement in analytics tooling, but a fundamental reimagining of how organizations can leverage data: through agent-powered automation, modular extensibility, and enterprise-grade reliability.
 
 **The future of data analytics is autonomous, intelligent, and already here.**
+
