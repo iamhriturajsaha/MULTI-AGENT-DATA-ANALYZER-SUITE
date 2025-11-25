@@ -12,23 +12,24 @@ The Multi-Agent Data Analyzer Suite represents a paradigm shift in enterprise da
 
 ## Introduction
 
-Modern enterprises face an escalating challenge: vast volumes of structured and unstructured data flowing from marketing, finance, operations, HR, customer support, and logistics systems demand rapid, accurate analysis to drive critical business decisions. Yet traditional analytics workflows—encompassing data preparation, SQL querying, exploratory analysis, visualization, and reporting—remain resource-intensive, time-consuming, and dependent on scarce specialized expertise. The Multi-Agent Data Analyzer Suite addresses these challenges through an intelligent orchestration of specialized autonomous agents. Each agent focuses on specific analytical competencies, collaborating seamlessly to deliver comprehensive insights at unprecedented speed and scale.
+Modern enterprises face an escalating challenge - vast volumes of structured and unstructured data flowing from marketing, finance, operations, HR, customer support and logistics systems demand rapid, accurate analysis to drive critical business decisions. Yet traditional analytics workflows—encompassing data preparation, SQL querying, exploratory analysis, visualization and reporting—remain resource-intensive, time-consuming and dependent on scarce specialized expertise. 
+The Multi-Agent Data Analyzer Suite addresses these challenges through an intelligent orchestration of specialized autonomous agents. Each agent focuses on specific analytical competencies, collaborating seamlessly to deliver comprehensive insights at unprecedented speed and scale.
 
 ## Problem Statement
 
-**1. Inefficient Manual Workflows -** Research indicates that data analysts spend approximately 70% of their time on data cleaning, querying, and preparation activities, leaving minimal capacity for value-generating insight development.
+**1. Inefficient Manual Workflows -** Research indicates that data analysts spend approximately 70% of their time on data cleaning, querying and preparation activities, leaving minimal capacity for value-generating insight development.
 
-**2. Skills Gap and Resource Constraints -** Comprehensive data analysis requires diverse competencies—SQL optimization, statistical analysis, visualization design, and narrative synthesis. Organizations often lack integrated teams possessing all these specialized skills.
+**2. Skills Gap and Resource Constraints -** Comprehensive data analysis requires diverse competencies—SQL optimization, statistical analysis, visualization design and narrative synthesis. Organizations often lack integrated teams possessing all these specialized skills.
 
 **3. Scalability Limitations -** As datasets expand to gigabyte and terabyte scales, human-driven workflows become increasingly inefficient and error-prone, creating analytical bottlenecks that impede business agility.
 
-**4. Time-Sensitive Decision Making -** Business environments demand real-time or near-real-time insights. Delayed analysis cycles result in missed opportunities, suboptimal forecasting, and reactive rather than proactive strategic positioning.
+**4. Time-Sensitive Decision Making -** Business environments demand real-time or near-real-time insights. Delayed analysis cycles result in missed opportunities, suboptimal forecasting and reactive rather than proactive strategic positioning.
 
 **5. Fragmented Automation -** While numerous tools automate individual analytical tasks (business intelligence dashboards, SQL optimizers), comprehensive end-to-end workflow automation—from raw dataset ingestion to narrative insight delivery—remains largely unavailable.
 
 ## Project Objective
 
-Develop a fully autonomous, enterprise-grade agentic system capable of executing complete data analysis workflows with minimal human involvement, making advanced analytics accessible, affordable, and scalable across organizations.
+Develop a fully autonomous, enterprise-grade agentic system capable of executing complete data analysis workflows with minimal human involvement, making advanced analytics accessible, affordable and scalable across organizations.
 
 ## The Agentic Approach - Architecture Rationale
 
@@ -84,7 +85,7 @@ The Automated Multi-Agent Data Analyst Suite autonomously executes -
 - **Visualization -** Multi-format interactive chart generation.
 - **Insight Synthesis -** Narrative report generation with actionable recommendations.
 - **Quality Assurance -** Result validation and consistency checking.
-- **Error Management -** Intelligent error detection, diagnosis, and recovery.
+- **Error Management -** Intelligent error detection, diagnosis and recovery.
 
 The system architecture prioritizes modularity, extensibility, and enterprise deployment readiness.
 
@@ -166,7 +167,7 @@ This pipeline architecture ensures accuracy and efficiency while maintaining age
 **Typical End-to-End Analysis Example -**
 
 1. **Data Ingestion -** User uploads CSV file or connects to SQL database.
-2. **Initial Assessment -** Orchestrator detects columns, data types, and structural characteristics.
+2. **Initial Assessment -** Orchestrator detects columns, data types and structural characteristics.
 3. **Task Distribution -**
    - Data Analyst Agent receives raw data for profiling.
    - SQL Agent receives schema for query generation.
@@ -216,7 +217,7 @@ This pipeline architecture ensures accuracy and efficiency while maintaining age
 
 **1. Fully Autonomous EDA -**  Executes complete exploratory analysis from ingestion to insight without human intervention.
 
-**2. SQL Intelligence -** Automatically generates, optimizes, and validates complex SQL queries across diverse database schemas.
+**2. SQL Intelligence -** Automatically generates, optimizes and validates complex SQL queries across diverse database schemas.
 
 **3. Data Storytelling -** Transforms statistical outputs into coherent, actionable narrative insights tailored to business contexts.
 
@@ -250,7 +251,7 @@ This pipeline architecture ensures accuracy and efficiency while maintaining age
 
 **Challenge -** Managing non-deterministic outputs and occasional errors.
 
-**Solution -** Implemented validation loops, rephrasing strategies, and multi-attempt retry logic.
+**Solution -** Implemented validation loops, rephrasing strategies and multi-attempt retry logic.
 
 ### **Visualization Robustness**
 
@@ -293,12 +294,12 @@ This pipeline architecture ensures accuracy and efficiency while maintaining age
 ## Future Development
 
 - Produce formatted PDF and PowerPoint presentations with executive summaries and detailed appendices.
-- Implement intelligent imputation, automated transformation pipelines, and data quality enforcement.
-- Automatically construct, train, and evaluate predictive models with hyperparameter optimization.
+- Implement intelligent imputation, automated transformation pipelines and data quality enforcement.
+- Automatically construct, train and evaluate predictive models with hyperparameter optimization.
 - Develop full-featured dashboard with real-time agent activity monitoring and manual override capabilities.
 - Package for Kubernetes and Google Cloud Run to enable enterprise-scale horizontal scaling.
 - Ground analytical outputs using Retrieval-Augmented Generation with industry-specific knowledge bases.
 
 ## Conclusion
 
-The Multi-Agent Data Analyzer Suite demonstrates the transformative potential of autonomous, collaborative AI systems in enterprise analytics. By combining specialized agents with intelligent orchestration, the system automates every critical stage of the analytical pipeline—delivering rapid, accurate, and scalable insights that drive informed decision-making. This project represents not merely an incremental improvement in analytics tooling, but a fundamental reimagining of how organizations can leverage data through agent-powered automation, modular extensibility, and enterprise-grade reliability.
+The Multi-Agent Data Analyzer Suite demonstrates the transformative potential of autonomous, collaborative AI systems in enterprise analytics. By combining specialized agents with intelligent orchestration, the system automates every critical stage of the analytical pipeline—delivering rapid, accurate and scalable insights that drive informed decision-making. This project represents not merely an incremental improvement in analytics tooling, but a fundamental reimagining of how organizations can leverage data through agent-powered automation, modular extensibility and enterprise-grade reliability.
